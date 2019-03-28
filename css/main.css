@@ -96,3 +96,7 @@ td {
   }
 
 }
+
+.link {
+  text-decoration: underline;
+}
