@@ -12,7 +12,7 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
+  border-bottom: 1px solid #568c36;
 }
 
 a:hover {
@@ -39,6 +39,11 @@ a:hover {
 .nav a:hover {
   background-color: #fff;
   color: #113c00;
+}
+
+.nav a:focus,
+.nav a:hover {
+  outline: 3px solid #000;
 }
 
 .about {
@@ -99,4 +104,14 @@ td {
 
 .link {
   text-decoration: underline;
+  color: #113c00;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
 }
